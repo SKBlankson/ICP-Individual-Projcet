@@ -16,12 +16,12 @@ Four function calls are required to perform the search:
 
 These first 3 function calls create the database/graph of information needed to perform the search.
 They should be called in the main method of the RouteFinder class. <br/>The arguments for each call should be the location of
-their respective files
+their respective files.
 
 4.  RouteFinder.performSearch("testcase.txt");
 
 This 4th function calls all the other necessary sub-methods to perform the route search. <br/> Ideally, this is the only call 
-in main that you need to change. Simply call it and provide the location of the input file as the argument
+in main that you need to change. Simply call it and provide the location of the input file as the argument.
 
 ### Sample Code to Perform the search
 ```
@@ -30,12 +30,12 @@ in main that you need to change. Simply call it and provide the location of the 
         DataReader.readAirports("airports.csv");
         RouteFinder.performSearch("testcase.txt");
 ```                   
-The first 3 lines have the locations of the the csv files as arguments <br/>
-The final line performs the search and takes the location of the input file (source and destination) as the argument <br/>
-You can also edit the "testcase.txt" file directly so that you do not have to make any changes to the function calls
+The first 3 lines have the locations of the the csv files as arguments. <br/>
+The final line performs the search and takes the location of the input file (source and destination) as the argument. <br/>
+You can also edit the "testcase.txt" file directly so that you do not have to make any changes to the function calls.
 
 ### Notes
 1. Always check the console after a search. It will tell you if a solution was found and any other relevant messages.
 2. If the search takes more than a few seconds, there is probably no solution path. BFS always tries every possible path 
-and thus might take long to run sometimes
+and thus might take long to run sometimes.
 
