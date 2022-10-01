@@ -14,8 +14,7 @@ Four function calls are required to perform the search:
 2. DataReader.readAirlines("airlines.csv");
 3. DataReader.readAirports("airports.csv");
 
-These first 3 function calls create the database/graph of information needed to perform the search.These first 3 function calls create the database/graph of information needed to perform the search.
-
+These first 3 function calls create the database/graph of information needed to perform the search.
 They should be called in the main of the RouteFinder class. <br/>The arguments for each call should be the location of
 their respective files
 
