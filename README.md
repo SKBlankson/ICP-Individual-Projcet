@@ -2,7 +2,7 @@ RouteFinder
 =========
 
 A java program that takes in a text file containing the Start and Destination and returns
-a solution path in the file<br/>
+a solution path in a file.<br/>
 Since this uses a Breadth-First Search, it always finds the shortest route in terms of no of flights !
 
 
