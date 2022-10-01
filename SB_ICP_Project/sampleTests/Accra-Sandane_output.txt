@@ -1,0 +1,6 @@
+1. AA from ACC to LHR 0 stops
+2. AA from LHR to OSL 0 stops
+3. WF from OSL to SDN 0 stops
+Total Flights: 3
+Total additional stops: 0
+Optimality Criteria: No of Flights
